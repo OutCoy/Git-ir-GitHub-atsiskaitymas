@@ -1,6 +1,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 
 body{
+    font-family: sans-serif;
     background-image:linear-gradient(to right, #00000050, #00000050), url('../resources/bg-overlay.png'), url("../resources/bg.jpg");
     background-position: 50% 20%;
     background-repeat: no-repeat;
@@ -84,7 +85,8 @@ ul>li {
 li button{
     width: 100%;
     background-color: transparent;
-    height: 40px;
+    height: 50px;
+    line-height: 50px;
     border: 1px solid #fff;
     color: #fff;
     text-transform: uppercase;
@@ -108,8 +110,8 @@ li button:hover{
 .closeTab{
     position: absolute;
     height: 30px;
-    right: 15px;
-    top: 15px;
+    right: 40px;
+    top: 40px;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -146,9 +148,9 @@ img{
 
 .hr1, .hr2{
     position: absolute;
-    width: 49px;
+    width: 50px;
     transform: rotate(90deg);
-    border: 1px solid white;
+    border: 0.5px solid white;
 }
 
 nav, header{
@@ -162,5 +164,44 @@ nav, header{
 .hr2{
     top: -34px;
     left: 50%;
-    margin-left: -24.5px;
+    margin-left: -26px;
+}
+
+@media (min-width: 992px){
+    body{
+        background-position: 50% 80%;
+    }
+    
+    #landingPage{
+        padding: 40px;
+    }
+
+    .landingMain h1{
+        margin-top: 40px;
+    }
+
+    .landingMain p{
+        width: 80%;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    #introTab, #workTab, #aboutTab, #contactTab{
+        width: 70%;
+        margin: 70px auto;
+    }
+
+    ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    ul>li{
+        width: 175px;
+    }
+
+    section>video{
+        height: 300px;
+        object-fit: cover;
+    }
 }
