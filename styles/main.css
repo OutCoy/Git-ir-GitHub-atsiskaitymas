@@ -96,7 +96,7 @@ li button:hover{
     cursor: pointer;
 }
 
-#introTab, #workTab, #aboutTab{
+#introTab, #workTab, #aboutTab, #contactTab{
     width: auto;
     padding: 40px;
     margin: 10px;
@@ -123,13 +123,13 @@ li button:hover{
     transform: rotate(90deg);
 }
 
-#introTab p, #workTab p, #aboutTab p{
+#introTab p, #workTab p, #aboutTab p, #contactTab p{
     text-transform: none;
     letter-spacing: normal;
     line-height: 30px;
 }
 
-#introTab h1, #workTab h1, #aboutTab h1{
+#introTab h1, #workTab h1, #aboutTab h1, #contactTab h1{
     border-bottom: 1px solid white;
     display: inline-block;
     padding: 10px;
