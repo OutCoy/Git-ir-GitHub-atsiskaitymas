@@ -12,10 +12,10 @@ const landingPage = document.querySelector('#landingPage');
 
 const closeTab = document.querySelectorAll('.closeTab');
 
-introTabBtn.addEventListener('click', () => {
-    landingPage.classList.add('displayNone');
-    introTab.classList.remove('displayNone');
-});
+openTab(introTabBtn, introTab);
+openTab(workTabBtn, workTab);
+openTab(aboutTabBtn, aboutTab);
+openTab(contactTabBtn, contactTab);
 
 closeTab.forEach(button => {
     button.addEventListener('click', () => {
@@ -26,3 +26,10 @@ closeTab.forEach(button => {
         contactTab.classList.add('displayNone');
     });
 });
+
+function openTab(btn, content){
+    btn.addEventListener('click', () => {
+        landingPage.classList.add('displayNone');
+        content.classList.remove('displayNone');
+    });
+}
