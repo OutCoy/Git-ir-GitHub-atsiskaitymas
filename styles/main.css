@@ -96,7 +96,7 @@ li button:hover{
     cursor: pointer;
 }
 
-#introTab{
+#introTab, #workTab{
     width: auto;
     padding: 40px;
     margin: 10px;
@@ -123,13 +123,13 @@ li button:hover{
     transform: rotate(90deg);
 }
 
-#introTab p{
+#introTab p, #workTab p{
     text-transform: none;
     letter-spacing: normal;
     line-height: 30px;
 }
 
-#introTab h1{
+#introTab h1, #workTab h1{
     border-bottom: 1px solid white;
     display: inline-block;
     padding: 10px;
@@ -137,5 +137,9 @@ li button:hover{
 }
 
 video{
+    width: 100%;
+}
+
+img{
     width: 100%;
 }
