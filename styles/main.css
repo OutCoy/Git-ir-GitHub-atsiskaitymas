@@ -1,7 +1,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 
 body{
-    background-image: url('../resources/bg-overlay.png'), url("../resources/bg.jpg");
+    background-image:linear-gradient(to right, #00000050, #00000050), url('../resources/bg-overlay.png'), url("../resources/bg.jpg");
     background-position: 50% 20%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,6 +70,7 @@ svg{
 
 nav{
     margin-top: 50px;
+    width: auto;
 }
 
 ul{
@@ -141,4 +142,25 @@ video{
 
 img{
     width: 100%;
+}
+
+.hr1, .hr2{
+    position: absolute;
+    width: 49px;
+    transform: rotate(90deg);
+    border: 1px solid white;
+}
+
+nav, header{
+    position: relative;
+}
+
+.hr1{
+    bottom: 16px;
+}
+
+.hr2{
+    top: -34px;
+    left: 50%;
+    margin-left: -24.5px;
 }
