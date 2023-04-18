@@ -6,7 +6,7 @@ const contactTabBtn = document.querySelector('#contactTabBtn');
 const introTab = document.querySelector('#introTab');
 const workTab = document.querySelector('#workTab');
 const aboutTab = document.querySelector('#aboutTab');
-// const contactTab = document.querySelector('#contactTab');
+const contactTab = document.querySelector('#contactTab');
 
 const landingPage = document.querySelector('#landingPage');
 
@@ -23,6 +23,6 @@ closeTab.forEach(button => {
         introTab.classList.add('displayNone');
         workTab.classList.add('displayNone');
         aboutTab.classList.add('displayNone');
-        // contactTab.classList.add('displayNone');
+        contactTab.classList.add('displayNone');
     });
 });
