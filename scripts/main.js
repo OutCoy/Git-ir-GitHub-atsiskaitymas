@@ -12,11 +12,6 @@ const landingPage = document.querySelector('#landingPage');
 
 const closeTab = document.querySelectorAll('.closeTab');
 
-// introTabBtn.addEventListener('click', () => {
-//     landingPage.classList.add('displayNone');
-//     introTab.classList.remove('displayNone');
-// });
-
 openTab(introTabBtn, introTab);
 openTab(workTabBtn, workTab);
 openTab(aboutTabBtn, aboutTab);
