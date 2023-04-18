@@ -9,84 +9,88 @@
         <title>Git ir GitHub atsiskaitymas</title>
     </head>
     <body>
-        <section id="landingPage">
-            <header>
-                <div class="diamond">
-                    <svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                        <path d="M507.9 196.4l-104-153.8C399.4 35.95 391.1 32 384 32H127.1C120 32 112.6 35.95 108.1 42.56l-103.1 153.8c-6.312 9.297-5.281 21.72 2.406 29.89l231.1 246.2C243.1 477.3 249.4 480 256 480s12.94-2.734 17.47-7.547l232-246.2C513.2 218.1 514.2 205.7 507.9 196.4zM382.5 96.59L446.1 192h-140.1L382.5 96.59zM256 178.9L177.6 80h156.7L256 178.9zM129.5 96.59L205.1 192H65.04L129.5 96.59zM256 421L85.42 240h341.2L256 421z"/>
-                    </svg>
+        <main>
+            <section id="landingPage">
+                <header>
+                    <div class="diamond">
+                        <svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path d="M507.9 196.4l-104-153.8C399.4 35.95 391.1 32 384 32H127.1C120 32 112.6 35.95 108.1 42.56l-103.1 153.8c-6.312 9.297-5.281 21.72 2.406 29.89l231.1 246.2C243.1 477.3 249.4 480 256 480s12.94-2.734 17.47-7.547l232-246.2C513.2 218.1 514.2 205.7 507.9 196.4zM382.5 96.59L446.1 192h-140.1L382.5 96.59zM256 178.9L177.6 80h156.7L256 178.9zM129.5 96.59L205.1 192H65.04L129.5 96.59zM256 421L85.42 240h341.2L256 421z"/>
+                        </svg>
+                    </div>
+                    <hr class="hr1">
+                </header>
+                <div class="landingMain">
+                    <h1>Metaverse</h1>
+                    <p>
+                        Innovation that will shape how we <a href="#">connect</a> in
+                        the world an <a href="#">opportunity</a> for everybody.
+                    </p>
                 </div>
-            </header>
-            <div class="landingMain">
-                <h1>Metaverse</h1>
+                <nav>
+                    <hr class="hr2">
+                    <ul>
+                        <li><button id="introTabBtn">Intro</button></li>
+                        <li><button id="workTabBtn">Work</button></li>
+                        <li><button id="aboutTabBtn">About</button></li>
+                        <li><button id="contactTabBtn">Contact</button></li>
+                    </ul>
+                </nav>
+            </section>
+            <section id="introTab" class="displayNone">
+                <span class="closeTab">
+                    <svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 98 320 320"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+                </span>
+                <h1>Intro</h1>
+                <video controls autoplay muted>
+                    <source src="resources/tab-1.mp4" type="video/webm">
+                </video>
                 <p>
-                    Innovation that will shape how we <a href="#">connect</a> in
-                    the world an <a href="#">opportunity</a> for everybody.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, necessitatibus animi. Et magni dolores cupiditate laborum, eaque nisi odit, debitis numquam dolorum harum enim id at facilis. Distinctio aut quas voluptate, optio sint, possimus repellendus quae pariatur, officia perferendis rem!
                 </p>
-            </div>
-            <nav>
-                <ul>
-                    <li><button id="introTabBtn">Intro</button></li>
-                    <li><button id="workTabBtn">Work</button></li>
-                    <li><button id="aboutTabBtn">About</button></li>
-                    <li><button id="contactTabBtn">Contact</button></li>
-                </ul>
-            </nav>
-        </section>
-        <section id="introTab" class="displayNone">
-            <span class="closeTab">
-                <svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 98 320 320"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
-            </span>
-            <h1>Intro</h1>
-            <video controls autoplay muted>
-                <source src="resources/tab-1.mp4" type="video/webm">
-            </video>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, necessitatibus animi. Et magni dolores cupiditate laborum, eaque nisi odit, debitis numquam dolorum harum enim id at facilis. Distinctio aut quas voluptate, optio sint, possimus repellendus quae pariatur, officia perferendis rem!
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ex voluptate quia tenetur veritatis deleniti error natus quae aliquid unde voluptas, eaque, accusantium eos fuga nesciunt provident architecto, iste id. Unde minus quod, deserunt est sit iure nisi adipisci! Praesentium?
-            </p>
-        </section>
-        <section id="workTab" class="displayNone">
-            <span class="closeTab">
-                <svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 98 320 320"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
-            </span>
-            <h1>Work</h1>
-            <img src="resources/tab-2.jpg" alt="Work page stock image">
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, necessitatibus animi. Et magni dolores cupiditate laborum, eaque nisi odit, debitis numquam dolorum harum enim id at facilis. Distinctio aut quas voluptate, optio sint, possimus repellendus quae pariatur, officia perferendis rem!
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ex voluptate quia tenetur veritatis deleniti error natus quae aliquid unde voluptas, eaque, accusantium eos fuga nesciunt provident architecto, iste id. Unde minus quod, deserunt est sit iure nisi adipisci! Praesentium?
-            </p>
-        </section>
-        <section id="aboutTab" class="displayNone">
-            <span class="closeTab">
-                <svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 98 320 320"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
-            </span>
-            <h1>About</h1>
-            <img src="resources/tab-3.jpg" alt="Work page stock image">
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, necessitatibus animi. Et magni dolores cupiditate laborum, eaque nisi odit, debitis numquam dolorum harum enim id at facilis. Distinctio aut quas voluptate, optio sint, possimus repellendus quae pariatur, officia perferendis rem!
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ex voluptate quia tenetur veritatis deleniti error natus quae aliquid unde voluptas, eaque, accusantium eos fuga nesciunt provident architecto, iste id. Unde minus quod, deserunt est sit iure nisi adipisci! Praesentium?
-            </p>
-        </section>
-        <section id="contactTab" class="displayNone">
-            <span class="closeTab">
-                <svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 98 320 320"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
-            </span>
-            <h1>Contact</h1>
-            <img src="resources/tab-4.jpg" alt="Contact stock image">
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, necessitatibus animi. Et magni dolores cupiditate laborum, eaque nisi odit, debitis numquam dolorum harum enim id at facilis. Distinctio aut quas voluptate, optio sint, possimus repellendus quae pariatur, officia perferendis rem!
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ex voluptate quia tenetur veritatis deleniti error natus quae aliquid unde voluptas, eaque, accusantium eos fuga nesciunt provident architecto, iste id. Unde minus quod, deserunt est sit iure nisi adipisci! Praesentium?
-            </p>
-        </section>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ex voluptate quia tenetur veritatis deleniti error natus quae aliquid unde voluptas, eaque, accusantium eos fuga nesciunt provident architecto, iste id. Unde minus quod, deserunt est sit iure nisi adipisci! Praesentium?
+                </p>
+            </section>
+            <section id="workTab" class="displayNone">
+                <span class="closeTab">
+                    <svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 98 320 320"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+                </span>
+                <h1>Work</h1>
+                <img src="resources/tab-2.jpg" alt="Work page stock image">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, necessitatibus animi. Et magni dolores cupiditate laborum, eaque nisi odit, debitis numquam dolorum harum enim id at facilis. Distinctio aut quas voluptate, optio sint, possimus repellendus quae pariatur, officia perferendis rem!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ex voluptate quia tenetur veritatis deleniti error natus quae aliquid unde voluptas, eaque, accusantium eos fuga nesciunt provident architecto, iste id. Unde minus quod, deserunt est sit iure nisi adipisci! Praesentium?
+                </p>
+            </section>
+            <section id="aboutTab" class="displayNone">
+                <span class="closeTab">
+                    <svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 98 320 320"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+                </span>
+                <h1>About</h1>
+                <img src="resources/tab-3.jpg" alt="Work page stock image">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, necessitatibus animi. Et magni dolores cupiditate laborum, eaque nisi odit, debitis numquam dolorum harum enim id at facilis. Distinctio aut quas voluptate, optio sint, possimus repellendus quae pariatur, officia perferendis rem!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ex voluptate quia tenetur veritatis deleniti error natus quae aliquid unde voluptas, eaque, accusantium eos fuga nesciunt provident architecto, iste id. Unde minus quod, deserunt est sit iure nisi adipisci! Praesentium?
+                </p>
+            </section>
+            <section id="contactTab" class="displayNone">
+                <span class="closeTab">
+                    <svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 98 320 320"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+                </span>
+                <h1>Contact</h1>
+                <img src="resources/tab-4.jpg" alt="Contact stock image">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, necessitatibus animi. Et magni dolores cupiditate laborum, eaque nisi odit, debitis numquam dolorum harum enim id at facilis. Distinctio aut quas voluptate, optio sint, possimus repellendus quae pariatur, officia perferendis rem!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ex voluptate quia tenetur veritatis deleniti error natus quae aliquid unde voluptas, eaque, accusantium eos fuga nesciunt provident architecto, iste id. Unde minus quod, deserunt est sit iure nisi adipisci! Praesentium?
+                </p>
+            </section>
+        </main>
     </body>
 </html>
