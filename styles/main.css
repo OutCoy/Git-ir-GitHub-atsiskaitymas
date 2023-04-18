@@ -15,7 +15,6 @@ body{
 #landingPage{
     padding: 10px;
     box-sizing: border-box;
-    display: none;
 }
 
 header{
@@ -56,7 +55,14 @@ svg{
 
 .landingMain a{
     color: #fff;
-    text-decoration-style: dotted;
+    border-bottom: 1px dotted #fff;
+    text-decoration: none;
+    padding-bottom: 1px;
+}
+
+.landingMain a:hover{
+    color: #39c7d1;
+    border-color: #39c7d1;
 }
 
 nav{
@@ -81,7 +87,13 @@ li button{
     letter-spacing: 3px;
 }
 
+li button:hover{
+    background-color: #ffffff65;
+    cursor: pointer;
+}
+
 #introTab{
+    display: none;
     width: auto;
     padding: 40px;
     margin: 10px;
