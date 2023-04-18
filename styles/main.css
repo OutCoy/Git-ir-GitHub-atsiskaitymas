@@ -107,14 +107,20 @@ li button:hover{
 
 .closeTab{
     position: absolute;
-    height: 50px;
-    right: 10px;
-    top: 10px;
+    height: 30px;
+    right: 15px;
+    top: 15px;
 }
 
 .closeTab>svg{
     width: 100%;
     height: 100%;
+    transition: 0.5s;
+}
+
+#introTab svg:hover{
+    cursor: pointer;
+    transform: rotate(90deg);
 }
 
 #introTab p{
